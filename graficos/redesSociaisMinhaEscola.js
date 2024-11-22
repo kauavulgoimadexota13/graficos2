@@ -20,21 +20,21 @@ async function redesSociaisMinhaEscola() {
     ]
 
     const layout = {
-        plot_bgcolor: getCSS('--bg-color'),
-        paper_bgcolor: getCSS('--bg-color'),
+        plot_bgcolor: '#000000',  // Fundo preto
+        paper_bgcolor: '#000000', // Papel preto
         height: 700,
         title: {
             text: 'Redes sociais mais populares na escola',
             x: 0,
             font: {
-                color: getCSS('--primary-color'),
-                family: getCSS('--font'),
+                color: '#FFFFFF', // Texto branco
+                family: 'Arial, sans-serif',
                 size: 30
             }
         },
         legend: {
             font: {
-                color: getCSS('--primary-color'),
+                color: '#FFFFFF',  // Texto branco
                 size: 16
             }
         }
@@ -46,3 +46,4 @@ async function redesSociaisMinhaEscola() {
 }
 
 redesSociaisMinhaEscola()
+
