@@ -14,7 +14,7 @@ async function redesFavoritasMundo() {
             type: 'pie',
             textinfo: 'label+percent',
             textfont: {
-                color: '#FFFFFF'  // Texto em branco no gráfico
+                color: '#FFFFFF' // Texto branco
             }
         }
     ]
