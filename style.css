@@ -52,6 +52,8 @@ nav a:hover {
 
 .graficos-container {
     margin: 5rem;
+    width: 100%;
+    height: 500px; /* Garantindo que o gráfico tenha altura */
 }
 
 .graficos-container__texto {
@@ -76,4 +78,3 @@ footer {
     height: 3rem;
     margin-top: 2rem;
 }
-
